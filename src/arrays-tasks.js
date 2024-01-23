@@ -234,8 +234,9 @@ function getTail(arr, n) {
  *    doubleArray([0, 1, 2, 3, 4, 5]) => [0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5]
  *    doubleArray([]) => []
  */
-function doubleArray(/* arr */) {
-  throw new Error('Not implemented');
+function doubleArray(arr) {
+  // throw new Error('Not implemented');
+  return arr.concat(arr);
 }
 
 /**
